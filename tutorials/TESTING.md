@@ -35,7 +35,7 @@ docker run -ti --rm \
   -v "$(pwd)/examples/volumes/volume-venv.squashfs:/opt/aleph-vm/examples/volumes/volume-venv.squashfs:ro" \
   --device /dev/kvm \
   -p 4020:4020 \
-  docker.io/alephim/vm-supervisor-dev
+  docker.io/alephim/vm-supervisor-dev:alpha
 ```
 
 Or launch this command using:
