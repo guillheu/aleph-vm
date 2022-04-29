@@ -133,7 +133,7 @@ python3 -m vm_supervisor --help
 
 List available using environment variables using:
 ```shell
-python3 -m vm_supervisor --print-config --do-not-run
+python3 -m vm_supervisor --print-settings --do-not-run
 ```
 
 Configuration environment variables can be stored in a file named `.env` in the local directory.
