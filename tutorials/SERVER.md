@@ -88,7 +88,7 @@ cargo build --release
 Publish it on Aleph using the same procedure as with the Python example, except the entrypoint refers to the name of the binary to execute. 
 
 ```shell
-aleph program ./target/release/example_http_rust example_http_rust
+aleph program ./target/release example_http_rust
 ```
 
 If your program takes some arguments, pass them in the entrypoint by using quotes: `"example_http_rust --help"`.
