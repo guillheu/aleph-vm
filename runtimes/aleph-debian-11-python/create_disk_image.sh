@@ -34,7 +34,7 @@ pip3 install 'aleph-client>=0.4.6' 'coincurve==15.0.0'
 python3 -m compileall -f /usr/local/lib/python3.9
 
 echo "root:toor" | /usr/sbin/chpasswd
-
+export PATH=$PATH:/sbin:/bin
 mkdir -p /overlay
 
 # Set up a login terminal on the serial console (ttyS0):
